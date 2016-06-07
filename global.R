@@ -1,4 +1,2 @@
 # libs --------------------------------------------------------------------
-library(pacman)
-p_load(lubridate, rvest, stringr, kirkegaard, ggplot2, scales, boot, plotly)
-
+sapply(X = c("lubridate", "rvest", "stringr", "kirkegaard", "ggplot2", "scales", "boot", "plotly"), FUN = library, character.only = T)
