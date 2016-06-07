@@ -64,7 +64,9 @@ shinyServer(function(input, output) {
         scale_x_date(limits = c(input$date_start, dmy("23 Jun 2016"))) +
         geom_vline(xintercept = dmy("23 Jun 2016") %>% as.numeric(), linetype = "dotted", color = "red")
       
-      ggplotly(gg)
+      gg_plotly = ggplotly(gg)
+      
+
     })
     
     
