@@ -65,8 +65,6 @@ shinyServer(function(input, output) {
         geom_vline(xintercept = dmy("23 Jun 2016") %>% as.numeric(), linetype = "dotted", color = "red")
       
       gg_plotly = ggplotly(gg)
-      
-
     })
     
     

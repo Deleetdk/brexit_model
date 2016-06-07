@@ -54,7 +54,7 @@ shinyUI(fluidPage(
                  HTML("<p>This calculation uses a <a href='https://en.wikipedia.org/wiki/Random_seed'>seed</a> to ensure reproducible results when using the same settings and data. Otherwise, results would vary slightly.</p>")
                  )
       ),
-      HTML("<p>Made by <a href='http://emilkirkegaard.dk/'>Emil O. W. Kirkegaard</a>. Source code on <a href=''>Github</a>.</p>")
+      HTML("<p>Made by <a href='http://emilkirkegaard.dk/'>Emil O. W. Kirkegaard</a>. Source code on <a href='https://github.com/Deleetdk/brexit_model'>Github</a>.</p>")
       
       
     )
