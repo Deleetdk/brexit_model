@@ -107,4 +107,18 @@ shinyServer(function(input, output) {
 
   })
   
+  output$data_table = renderTable({
+    #copy
+    d_tmp = d_brexit
+
+    #alter
+    d_tmp$Date_num = NULL #remove
+    d_tmp$Date = format(d_tmp$Date) #to chr
+    d_tmp$ones = NULL
+    d_tmp$sqrt_N = NULL
+    
+    d_tmp
+    
+  })
+  
 })
